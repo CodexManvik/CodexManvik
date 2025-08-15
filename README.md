@@ -18,7 +18,7 @@ I’m a passionate developer and technology enthusiast with a knack for turning 
 
 *   🌍  I'm based in India
 *   ✉️  You can contact me at [manvik.talwar@gmail.com](mailto:manvik.talwar@gmail.com)
-*   🚀  I'm currently working on [I am currently working on an AI assistant that lives entirely on your device, knows its surroundings, and isn’t afraid to speak its mind.](http://v)
+*   🚀  I'm currently working on [an AI assistant that lives entirely on your device, knows its surroundings, and isn’t afraid to speak its mind.](http://v)
 *   🧠  I'm currently learning how to build a privacy-first AI assistant that runs entirely on local hardware while having full context of the system it operates in. This includes exploring secure and efficient access to local data, advanced context management, and prompt orchestration for dynamic, real-time reasoning. I’m also focusing on optimizing lightweight models for high performance, integrating custom toolchains to interact with files and applications, and implementing strong privacy safeguards to ensure the assistant is both powerful and fully under the user’s control.
 *   👥  I'm looking to collaborate on Interesting and cool projects, drop me a dm and I will contact you
 *   💬  Ask me about I’m teaching my AI to say “no” when it really means no — because honesty is a feature, not a bug.
