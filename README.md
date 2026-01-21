@@ -1,109 +1,56 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=110&section=header" width="100%">
-
-<h1 align="center">
-  Hi, my name is Manvik Talwar
-</h1>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=0891B2&center=true&vCenter=true&width=435&lines=AI%2FML+Solutions+Architect;Full-Stack+Developer;Python+Ecosystem+Expert;Cloud+Integrations+Specialist" alt="Typing SVG" />
-</p>
-
-I'm a passionate developer and technology enthusiast with a knack for turning complex ideas into clean, functional, and user-friendly solutions. My work often blends AI, web development, and cloud technologies to create projects that are both technically sound and impactful.
-
-- 🌍  I'm based in India
-- ✉️  You can contact me at [manvik.talwar@gmail.com](mailto:manvik.talwar@gmail.com)
-- 🚀  I'm currently working on an AI assistant that lives entirely on your device, knows its surroundings, and isn't afraid to speak its mind.
-- 🧠  I'm currently learning how to build a privacy-first AI assistant that runs entirely on local hardware while having full context of the system it operates in.
-- 👥  I'm looking to collaborate on interesting and cool projects; drop me a DM!
-- 💬  I'm teaching my AI to say "no" when it really means no — because honesty is a feature, not a bug.
-
----
-
-<h2 align="center">🚀 What I Do</h2>
-<p align="center">
-  • <b>AI & Machine Learning</b> – Building intelligent systems with Azure OpenAI and cognitive search-based assistants.<br>
-  • <b>Full-Stack Development</b> – Designing smooth, modern UIs backed by robust APIs and scalable databases.<br>
-  • <b>Cloud Integrations</b> – Leveraging Azure and Flask to deploy production-ready apps.<br>
-  • <b>Data Processing & Automation</b> – Turning raw data into actionable insights using efficient pipelines and embeddings.
-</p>
-
----
-
-<h2 align="center">🛠️ Tech Stack</h2>
-
-<h3 align="center">Languages</h3>
 <div align="center">
-  <a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" alt="Python" title="Python" width="40" height="40" /></a>
-  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg" alt="TypeScript" title="TypeScript" width="40" height="40" /></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" alt="JavaScript" title="JavaScript" width="40" height="40" /></a>
-  <a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-170" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/cplusplus-colored.svg" alt="C++" title="C++" width="40" height="40" /></a>
-  <a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-170" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/c-colored.svg" alt="C" title="C" width="40" height="40" /></a>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0_000000_100_1e1e1e&height=180&section=header&text=Manvik%20Talwar&fontSize=70&fontColor=ffffff&desc=Full%20Stack%20AI%20Engineer%20%7C%20Deep%20Learning%20Specialist&descSize=25&descAlign=50&descAlignY=65&animation=fadeIn" width="100%" />
 </div>
 
-<h3 align="center">Frontend Development</h3>
+<br/>
+
+<h3 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Geist+Mono&weight=600&size=24&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&width=600&lines=Building+Scalable+RAG+Systems;Architecting+AI+Agents;Researching+Deep+Learning+Security;Engineering+High-Performance+Web+Apps" alt="Typing SVG" />
+</h3>
+
 <div align="center">
-  <a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" alt="React" title="React" width="40" height="40" /></a>
-  <a href="https://nextjs.org/docs" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-colored-dark.svg" alt="NextJs" title="NextJs" width="40" height="40" /></a>
-  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg" alt="TailwindCSS" title="TailwindCSS" width="40" height="40" /></a>
-  <a href="https://ui.shadcn.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/shadcnui-colored-dark.svg" alt="Shadcn/ui" title="Shadcn/ui" width="40" height="40" /></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" alt="HTML5" title="HTML5" width="40" height="40" /></a>
-  <a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" alt="CSS3" title="CSS3" width="40" height="40" /></a>
+  RESEARCH • ARCHITECTURE • DEPLOYMENT
 </div>
 
-<h3 align="center">Backend & Databases</h3>
+<br/>
+
 <div align="center">
-  <a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg" alt="NodeJS" title="NodeJS" width="40" height="40" /></a>
-  <a href="https://flask.palletsprojects.com/en/3.0.x/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/flask-colored-dark.svg" alt="Flask" title="Flask" width="40" height="40" /></a>
-  <a href="https://fastapi.tiangolo.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/fastapi-colored.svg" alt="Fast API" title="Fast API" width="40" height="40" /></a>
-  <a href="https://www.postgresql.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg" alt="PostgreSQL" title="PostgreSQL" width="40" height="40" /></a>
-  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg" alt="MySQL" title="MySQL" width="40" height="40" /></a>
-  <a href="https://www.oracle.com/uk/index.html" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/oracle-colored.svg" alt="Oracle" title="Oracle" width="40" height="40" /></a>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
 </div>
 
-<h3 align="center">Cloud, AI/ML & Other Tools</h3>
+<br/>
+
+## ⚡ Featured Engineering
+
+| **Project** | **Description** | **Tech Stack** |
+|:---:|:---|:---|
+| <a href="https://github.com/CodexManvik/Interview-Mirror">**Interview Mirror**</a><br>*(AI Interview Coach)* | Real-time **behavioral analysis system** tracking 543 body landmarks using MediaPipe. Detects stress, posture, and integrity in <100ms latency. | `Google Gemini` `MediaPipe` `FastAPI` `React` |
+| <a href="https://github.com/CodexManvik/Deep-Learning-Based-Watermarking">**DL Watermarking**</a><br>*(Security Research)* | **Invisible copyright protection** protocol using CNNs + DWT. Achieved **>40dB PSNR** robustness against compression attacks. | `PyTorch` `CNN` `OpenCV` `DWT` |
+| <a href="https://github.com/CodexManvik/FloatChat-AI">**FloatChat**</a><br>*(Ocean Data RAG)* | **Local RAG pipeline** for querying 100k+ ARGO oceanographic records via natural language without external API costs. | `Qwen LLM` `ChromaDB` `Streamlit` |
+| <a href="https://github.com/CodexManvik/Sofia-A-Chatbot-For-Realtime-Document-Insights">**Enterprise Chatbot**</a><br>*(Internship)* | Production **Azure RAG system** deployed on-premise. Features automated citation tracking and payload optimization. | `Azure OpenAI` `Cognitive Search` `Docker` |
+
+<br/>
+
 <div align="center">
-  <a href="https://portal.azure.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/azure-colored.svg" alt="Microsoft Azure" title="Microsoft Azure" width="40" height="40" /></a>
-  <a href="https://pytorch.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/pytorch-colored.svg" alt="PyTorch" title="PyTorch" width="40" height="40" /></a>
-  <a href="https://www.tensorflow.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tensorflow-colored.svg" alt="TensorFlow" title="TensorFlow" width="40" height="40" /></a>
-  <a href="https://huggingface.co/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/huggingface-colored-dark.svg" alt="Hugging Face" title="Hugging Face" width="40" height="40" /></a>
-  <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/visualstudiocode-colored.svg" alt="VS Code" title="VS Code" width="40" height="40" /></a>
-  <a href="https://store.arduino.cc/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/arduino-colored.svg" alt="Arduino" title="Arduino" width="40" height="40" /></a>
+  <img src="https://github-readme-stats.vercel.app/api?username=CodexManvik&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=A855F7&icon_color=ffffff" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CodexManvik&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=A855F7" height="150" alt="languages graph"  />
 </div>
 
----
+<br/>
 
-<h2 align="center">📊 GitHub Stats</h2>
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=CodexManvik&show_icons=true&theme=gruvbox&hide_border=true&border_radius=15" alt="Manvik's GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CodexManvik&layout=compact&theme=gruvbox&hide_border=true&border_radius=15" alt="Top Languages" />
-  <img src="https://streak-stats.demolab.com/?user=CodexManvik&theme=gruvbox&hide_border=true&border_radius=15" alt="GitHub Streak" />
-</div>
-
-<h2 align="center">🏆 Top Repositories</h2>
-<div align="center">
-  <table>
-    <tr>
-      <td width="50%">
-        <a href="https://github.com/CodexManvik/Path-Infotech-Internship-Chatbot-Showcase-Documentation">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=CodexManvik&repo=Path-Infotech-Internship-Chatbot-Showcase-Documentation&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en" alt="Chatbot Showcase" />
-        </a>
-      </td>
-      <td width="50%">
-        </td>
-    </tr>
-  </table>
-</div>
-
----
-
-<h2 align="center">📫 Let's Connect!</h2>
-<p align="center">
-  <a href="https://www.github.com/CodexManvik" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" width="40" height="40" alt="GitHub" />
+  <a href="https://codexmanvik.github.io">
+    <img src="https://img.shields.io/badge/Portfolio-View_Site-7023e9?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
-  <a href="https://www.linkedin.com/in/manvik-talwar" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" width="40" height="40" alt="LinkedIn" />
+  <a href="https://linkedin.com/in/manvik-talwar">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-</p>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=110&section=footer" width="100%">
+  <a href="mailto:manvik.talwar@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</div>
