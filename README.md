@@ -1,56 +1,53 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0_000000_100_1e1e1e&height=180&section=header&text=Manvik%20Talwar&fontSize=70&fontColor=ffffff&desc=Full%20Stack%20AI%20Engineer%20%7C%20Deep%20Learning%20Specialist&descSize=25&descAlign=50&descAlignY=65&animation=fadeIn" width="100%" />
-</div>
+# Manvik Talwar — building AI systems that hold up outside the notebook
 
-<br/>
+I'm a third-year CS student at Manipal University Jaipur, specializing in AI/ML. Most of my time goes into Generative AI and RAG pipelines — not the toy demos, but the kind that need to handle real data, real latency constraints, and real users. I did my first full production deployment at Path Infotech, which taught me more about what "done" actually means than any course has. I'm still early in the journey, but I'm building things I'm genuinely proud of.
 
-<h3 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Geist+Mono&weight=600&size=24&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&width=600&lines=Building+Scalable+RAG+Systems;Architecting+AI+Agents;Researching+Deep+Learning+Security;Engineering+High-Performance+Web+Apps" alt="Typing SVG" />
-</h3>
+**Currently:** Exploring how retrieval systems can be made more trustworthy — better citations, less hallucination, more honest failure modes. Also thinking about what it takes to make deep learning models hold up under adversarial conditions.
 
-<div align="center">
-  RESEARCH • ARCHITECTURE • DEPLOYMENT
-</div>
+---
 
-<br/>
+### Projects
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-</div>
+**Interview Mirror**
+Helps people practice interviews by analyzing their body language and stress signals in real time — not just what they say, but how they present. The core challenge was building a low-latency inference pipeline over 543 MediaPipe landmarks that could process a live webcam feed without lag.
+`MediaPipe` · `Google Gemini` · `OpenCV` · `Python` · `<100ms latency`
 
-<br/>
+**FloatChat (ARGO)**
+A local RAG system I built to query over 100k+ oceanographic science records without sending sensitive data to a cloud API. The interesting problem was making semantic search feel fast over a large specialty corpus where standard chunking strategies fall apart.
+`Qwen` · `ChromaDB` · `FAISS` · `FastAPI` · `<2s query time`
 
-## ⚡ Featured Engineering
+**Deep Learning Watermarking**
+Invisible copyright protection for digital images using a CNN trained alongside Discrete Wavelet Transform. The real constraint was maintaining perceptual quality (PSNR > 40dB) while achieving 96% robustness against compression — you can't just brute-force one at the expense of the other.
+`PyTorch` · `TensorFlow` · `OpenCV` · `DWT` · `NumPy`
 
-| **Project** | **Description** | **Tech Stack** |
-|:---:|:---|:---|
-| <a href="https://github.com/CodexManvik/Interview-Mirror">**Interview Mirror**</a><br>*(AI Interview Coach)* | Real-time **behavioral analysis system** tracking 543 body landmarks using MediaPipe. Detects stress, posture, and integrity in <100ms latency. | `Google Gemini` `MediaPipe` `FastAPI` `React` |
-| <a href="https://github.com/CodexManvik/Deep-Learning-Based-Watermarking">**DL Watermarking**</a><br>*(Security Research)* | **Invisible copyright protection** protocol using CNNs + DWT. Achieved **>40dB PSNR** robustness against compression attacks. | `PyTorch` `CNN` `OpenCV` `DWT` |
-| <a href="https://github.com/CodexManvik/FloatChat-AI">**FloatChat**</a><br>*(Ocean Data RAG)* | **Local RAG pipeline** for querying 100k+ ARGO oceanographic records via natural language without external API costs. | `Qwen LLM` `ChromaDB` `Streamlit` |
-| <a href="https://github.com/CodexManvik/Sofia-A-Chatbot-For-Realtime-Document-Insights">**Enterprise Chatbot**</a><br>*(Internship)* | Production **Azure RAG system** deployed on-premise. Features automated citation tracking and payload optimization. | `Azure OpenAI` `Cognitive Search` `Docker` |
+**Sofia — Enterprise AI Assistant** *(Path Infotech)*
+A RAG chatbot deployed internally at Path Infotech for their internal knowledge base. Built with Azure OpenAI and Cognitive Search, with citation tracking so users could verify where answers came from. Deployed behind a Next.js frontend with a FastAPI backend and MySQL for session state.
+`Azure OpenAI` · `Cognitive Search` · `FastAPI` · `Next.js` · `MySQL`
 
-<br/>
+---
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=CodexManvik&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=A855F7&icon_color=ffffff" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CodexManvik&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=A855F7" height="150" alt="languages graph"  />
-</div>
+### Stack
 
-<br/>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 
-<div align="center">
-  <a href="https://codexmanvik.github.io">
-    <img src="https://img.shields.io/badge/Portfolio-View_Site-7023e9?style=for-the-badge&logo=vercel&logoColor=white" />
-  </a>
-  <a href="https://linkedin.com/in/manvik-talwar">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:manvik.talwar@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</div>
+---
+
+### GitHub Activity
+
+<a href="https://github.com/CodexManvik">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=CodexManvik&show_icons=true&theme=default&hide_border=true&count_private=true" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CodexManvik&layout=compact&theme=default&hide_border=true" />
+</a>
+
+---
+
+If something here looks interesting or you want to talk about RAG systems, watermarking, or anything else — reach me at [manvik.talwar@gmail.com](mailto:manvik.talwar@gmail.com) or on [LinkedIn](https://linkedin.com/in/manvik-talwar). Portfolio at [codexmanvik.github.io](https://codexmanvik.github.io).
