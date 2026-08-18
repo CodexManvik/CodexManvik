@@ -1,53 +1,53 @@
-# Manvik Talwar — building AI systems that hold up outside the notebook
+# Manvik Talwar
 
-I'm a third-year CS student at Manipal University Jaipur, specializing in AI/ML. Most of my time goes into Generative AI and RAG pipelines — not the toy demos, but the kind that need to handle real data, real latency constraints, and real users. I did my first full production deployment at Path Infotech, which taught me more about what "done" actually means than any course has. I'm still early in the journey, but I'm building things I'm genuinely proud of.
+Final-year CS major, AI/ML. I build systems that have to keep working when something goes wrong — and I measure whether they do.
 
-**Currently:** Exploring how retrieval systems can be made more trustworthy — better citations, less hallucination, more honest failure modes. Also thinking about what it takes to make deep learning models hold up under adversarial conditions.
+Most of what I write ends up being retrieval, agent orchestration, or local inference — the parts where the model is only one component and everything around it decides whether the thing is usable. Lately that's meant caring a lot about evaluation and about failure modes: benchmark harnesses, ablations, fail-closed defaults, and knowing when a system should refuse to act instead of guessing.
+
+Three engineering internships so far — local LLM inference for insurance claims adjudication, production analytics APIs, and an enterprise RAG deployment.
+
+**Right now:** finishing a first-author paper on deep learning watermarking, and taking IntelliOps from dry-run to real Kubernetes remediation.
 
 ---
 
 ### Projects
 
-**Interview Mirror**
-Helps people practice interviews by analyzing their body language and stress signals in real time — not just what they say, but how they present. The core challenge was building a low-latency inference pipeline over 543 MediaPipe landmarks that could process a live webcam feed without lag.
-`MediaPipe` · `Google Gemini` · `OpenCV` · `Python` · `<100ms latency`
+**[Deep Learning Watermarking](https://github.com/CodexManvik/Deep-Learning-Based-Watermarking)** — first author, manuscript in preparation
 
-**FloatChat (ARGO)**
-A local RAG system I built to query over 100k+ oceanographic science records without sending sensitive data to a cloud API. The interesting problem was making semantic search feel fast over a large specialty corpus where standard chunking strategies fall apart.
-`Qwen` · `ChromaDB` · `FAISS` · `FastAPI` · `<2s query time`
+Invisible 256-bit watermarking that embeds into the Haar DWT LL sub-band via a learned CNN. The interesting part is the attack simulator: JPEG compression is made differentiable with a straight-through estimator on DCT quantisation, so recovery-loss gradients flow back through the attack and train the encoder for robustness against it. Trained across natural photography, chest X-rays and CT — 37.3 dB PSNR, 0.97 SSIM, 3.2% clean bit error rate.
 
-**Deep Learning Watermarking**
-Invisible copyright protection for digital images using a CNN trained alongside Discrete Wavelet Transform. The real constraint was maintaining perceptual quality (PSNR > 40dB) while achieving 96% robustness against compression — you can't just brute-force one at the expense of the other.
-`PyTorch` · `TensorFlow` · `OpenCV` · `DWT` · `NumPy`
+`TensorFlow` · `Keras` · `WaveTF` · `differentiable JPEG` · `50k mixed-domain corpus`
 
-**Sofia — Enterprise AI Assistant** *(Path Infotech)*
-A RAG chatbot deployed internally at Path Infotech for their internal knowledge base. Built with Azure OpenAI and Cognitive Search, with citation tracking so users could verify where answers came from. Deployed behind a Next.js frontend with a FastAPI backend and MySQL for session state.
-`Azure OpenAI` · `Cognitive Search` · `FastAPI` · `Next.js` · `MySQL`
+**[IntelliOps CoE](https://github.com/CodexManvik/intelliops)** — agentic AIOps, closed loop
+
+Six services over a Redis Streams event bus that collapse alert storms into Situations, diagnose them, and execute reversible remediation. The whole system is async except one call — `action → governance` approval — so the human-in-the-loop guarantee is enforced by the call graph rather than by policy. Anomaly detection is online: a per-metric running z-score baseline with a warm-up gate, because a cold-started service otherwise flags its own startup as an incident. Remediation outcomes feed back as training data, and playbooks graduate from human-approved to automatic once they've earned it. Remediation is dry-run by default; real Kubernetes execution sits behind a mode switch.
+
+`FastAPI` · `Redis Streams` · `River` · `Kubernetes` · `Prometheus` · `React` · `Docker Compose` · `13 ADRs`
+
+**[Aethel](https://github.com/CodexManvik/Aethel)** — local-first AI agent runtime
+
+A desktop agent running entirely local inference, with a step-budgeted tool loop over filesystem, shell and web. Every mutation goes through a permission manifest and an audit log with one-click rollback. The part I'm most interested in is Reflective Skill Memory — the agent turns finished tasks into readable markdown skills, tracks how they perform, and promotes or retires each one on measured success rate. Behaviour changes without touching weights, and you can read and edit what it learned.
+
+`llama.cpp` · `FastAPI` · `Tauri` · `LanceDB` · `faster-whisper`
+
+**[FloatChat](https://github.com/CodexManvik/FloatChat-AI)** — natural language over oceanographic data
+
+Ask questions in plain English about ARGO ocean float measurements and get charts back. Dual-query backend: ChromaDB handles semantic lookup, and a separate path generates SQL against PostgreSQL on the fly for anything numeric. Dashboard has KPI cards, depth profiles, time series and geospatial maps. Smart India Hackathon 2025 national semi-finalist.
+
+`Streamlit` · `Plotly` · `ChromaDB` · `PostgreSQL` · `Ollama`
+
+**[Interview Mirror](https://github.com/CodexManvik/Interview-Mirror)** — real-time multimodal interview coach
+
+Reads posture, facial signals and speech together while you practise, and streams feedback live rather than scoring you at the end. Getting pose, face and audio pipelines to run concurrently under a latency budget tight enough to feel real-time was most of the work.
+
+`MediaPipe` · `faster-whisper` · `WebSockets` · `FastAPI` · `SQLite`
 
 ---
 
 ### Stack
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+`Python` · `TensorFlow` · `PyTorch` · `FastAPI` · `LangGraph` · `llama.cpp` · `Ollama` · `River` · `PostgreSQL` · `LanceDB` · `ChromaDB` · `Redis Streams` · `Kubernetes` · `Prometheus` · `Docker` · `TypeScript` · `React` · `Next.js` · `Azure`
 
 ---
 
-### GitHub Activity
-
-<a href="https://github.com/CodexManvik">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=CodexManvik&show_icons=true&theme=default&hide_border=true&count_private=true" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CodexManvik&layout=compact&theme=default&hide_border=true" />
-</a>
-
----
-
-If something here looks interesting or you want to talk about RAG systems, watermarking, or anything else — reach me at [manvik.talwar@gmail.com](mailto:manvik.talwar@gmail.com) or on [LinkedIn](https://linkedin.com/in/manvik-talwar). Portfolio at [codexmanvik.github.io](https://codexmanvik.github.io).
+Happy to talk about retrieval evaluation, AIOps, local inference, or watermarking — [manvik.talwar@gmail.com](mailto:manvik.talwar@gmail.com) · [LinkedIn](https://linkedin.com/in/manvik-talwar) · [codexmanvik.github.io](https://codexmanvik.github.io)
